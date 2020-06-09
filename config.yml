@@ -1,0 +1,52 @@
+#ANVIL CONFIG
+#ANVIL BY BLACKBARBAR
+#YOUTUBE: BlackCode
+
+
+#ALOW IF A PLAYER CAN CLICK ON AN ANVIL TO OPEN THE ANVIL MENU (true, false)
+
+anvil.click: true
+
+#THE ANVIL FAIL MESSAGE, THAT WILL SEND, IF A PLAYER CLICK THE AMBOS AND THE CLICK ACTION WAS SET TO FALSE
+
+anvil.click.false.message: "§cYou can't open the anvil menu by touching an anvil"
+
+#THE ANVIL PERMISSION MESSAGE, THAT WILL SEND, IF A PLAYER TRY TO OPEN THE ANVIL MENU WITH NO PERMISSIONS
+
+anvilmenu.noperms.message: "§cYou do not have the permission to use this command"
+
+#THE ANVIL PERMISSION MESSAGE, THAT WILL SEND, IF A PLAYER TRY TO REPAIR THE ITEM WITH NO PERMISSIONS
+
+anvilrepair.noperms.message: "§cYou do not have the permission to use this command"
+
+#THE ANVIL MESSAGE THAT WILL SEND WHEN THE PLAYER REPAIRED HIS ITEM
+
+anvilrepair.succes.message: "§aYou have repaired the Item in your Hand"
+
+#THE ANVIL MESSAGE THAT WILL SEND WHEN THE PLAYER CLOSE THE ANVIL MENU
+
+anvil.close.message: "§dYou have closed the Anvil Menü"
+
+#THE ANVIL PERMISSION MESSAGE, THAT WILL SEND, IF A PLAYER TRY TO RENAME THE ITEM WITH NO PERMISSIONS
+
+anvilrename.noperms.message: "§cYou do not have the permission to use this command"
+
+#THE ANVIL MESSAGE THAT WILL SEND WHEN THE PLAYER RENAMED HIS ITEM
+#USE {name} FOR THE NEW NAME
+
+anvilrename.succes.message: "§aDu hast das Item in deiner Hand in §r{name} §r§aumbennant"
+
+#THE ANVIL PERMISSION MESSAGE, THAT WILL SEND, IF A PLAYER TRY TO SIGN THE ITEM WITH NO PERMISSIONS
+
+anvilsign.noperms.message: "§cYou do not have the permission to use this command"
+
+#THE ANVIL MESSAGE THAT WILL SEND WHEN THE PLAYER SIGN HIS ITEM
+#USE {lore} FOR THE SIGN NAME
+
+anvilsign.succes.message: "§aDu hast das Item in deiner Hand in §r{lore} §r§asigniert"
+
+
+
+
+
+

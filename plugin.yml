@@ -1,0 +1,21 @@
+name: Anvil
+main: anvil\Main
+author: Blackbarbar
+version: 1.0.0
+api: 3.0.0
+commands:
+ anvil:
+  description: Open the Anvil UI
+ permission: "anvil.use"
+ 
+permissions:
+ anvil.use:
+  default: OP
+ anvil.repair.use:
+  default: OP
+ anvil.rename.use:
+  default: OP
+ anvil.sign.use:
+  default: OP
+  
+  
